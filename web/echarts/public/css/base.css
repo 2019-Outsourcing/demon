@@ -1,0 +1,61 @@
+html {
+    height: 100%
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-color:#091220ff;
+}
+
+.BMap_cpyCtrl {
+    display: none;
+}
+
+.anchorBL {
+    display: none;
+}
+.wraper{
+    position: relative;
+    width: 1500px;
+    height: 700px;
+    /* border: 1px solid #000; */
+    top: 10px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+#crowdDensity {
+    width: 1500px;
+    height: 700px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#goAnalyze{
+    width: 450px;
+    height: 400px;
+    background-image: url(../images/goAnalyze.gif);
+    background-size: 100% 100%;
+    position: absolute;
+    right: 0;
+    bottom:  0;
+}
+#highTime{
+    width: 550px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* border: 1px solid #f40; */
+    color: #fff;
+}
+#goRoute{
+    width: 700px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

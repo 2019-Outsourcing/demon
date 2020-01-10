@@ -7,7 +7,7 @@ var express = require('express')(); //express构建的实例对象
 express.get('/', function (request, response) { // 路由
   response.render('shenyang')
 })
-//express.listen(8080) //监听3000端口，默认localhost: 127.0.0.1 || 0.0.0.0
+// express.listen(8080) //监听3000端口，默认localhost: 127.0.0.1 || 0.0.0.0
 express.listen(80)
 /*
   express.js引入本地静态文件

@@ -9,11 +9,23 @@
 </head>
 <body>
     <!-- <h1>精灵大数据平台</h1> -->
-    <div class="wraper">    
+    <div class="wraper">
+        <div id="title">
+            <span>精灵大数据平台</span>
+        </div>    
         <div id="crowdDensity"></div>
-        <div id="goAnalyze"></div>
-        <div id="highTime">高峰折线图</div>
-        <div id="goRoute">人口出行路线，标签化</div>
+        <div id="goAnalyzewraper">
+            <span>出行分析</span>
+            <div id="goAnalyze"></div>
+        </div>
+        <div id="highTimewraper">
+            <span>高峰时段</span>
+            <div id="highTime"></div>
+        </div>
+        <div id="goRoutewraper">
+            <span>出行路线图</span>
+            <div id="goRoute"></div>
+        </div>
     </div>
     <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=yNbfmNfZW6zLMb6td4XXeofGoXupafds"></script>
     <script type="text/javascript" src="js/echarts.js"></script>

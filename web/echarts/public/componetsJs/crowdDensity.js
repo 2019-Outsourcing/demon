@@ -578,7 +578,3 @@ options: [
 ]
 }
 myChart.setOption(option);
-
-// 获取百度地图实例，使用百度地图自带的控件
-var bmap = myChart.getModel().getComponent('bmap').getBMap();
-bmap.addControl(new BMap.MapTypeControl());  

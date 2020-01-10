@@ -40,7 +40,7 @@ body {
     height: 40px;
     font-size: 25px;
     line-height: 25px;
-    color: #FFF300;
+    color: #0099FF;
     border-right: 1px solid #666;
     border-left: 1px solid #666;
     border-bottom: 1px solid #666;
@@ -60,7 +60,7 @@ body {
     position: absolute;
     bottom: 0;
     right: 1.5%;
-    color: #FFF300;
+    color: #0099FF;
     /* margin-top: 60px; */
 }
 #goAnalyze{
@@ -75,7 +75,7 @@ body {
 #goModewraper{
     width:20%;
     height:50%;
-    color: #FFF300;
+    color: #0099FF;
     position: absolute;
     left: 1%;
     top:  2.5%;
@@ -91,7 +91,7 @@ body {
 #highTimewraper{
     width:20%;
     height:50%;
-    color: #FFF300;
+    color: #0099FF;
     position: absolute;
     left: 1%;
     bottom:  2.5%;
@@ -110,7 +110,7 @@ body {
     position: absolute;
     top: 2.5%;
     right: 1.5%;
-    color: #FFF300;
+    color: #0099FF;
 }
 #goRoute{
     width: 100%;

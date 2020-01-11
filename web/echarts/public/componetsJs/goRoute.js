@@ -1,6 +1,13 @@
 var myChart = echarts.init(document.getElementById('goRoute'));
 var Rdata = lines;
 var option = {
+    title: {
+        text: '出行方式',
+        left: 0,
+        textStyle:{
+            color: '#0099FF',
+        }
+    },
     bmap: {
             center: [123.403043,41.799823],
             zoom: 12,

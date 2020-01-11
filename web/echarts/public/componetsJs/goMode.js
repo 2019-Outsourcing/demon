@@ -1,7 +1,7 @@
 var myChart = echarts.init(document.getElementById('goMode'));
 option = {
     title: {
-        text: '市民出行方式',
+        text: '出行方式统计',
         left: 'center',
         textStyle:{
             color: '#0099FF',

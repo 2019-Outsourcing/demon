@@ -3,7 +3,7 @@ import csv
 import time
 
 jsondata = {}
-with open('/home/angelo/Projects/demon/data/cleaned-signaling-data.csv','r') as datafile:
+with open('../../data/cleaned-signaling-data.csv','r') as datafile:
     csvdata = csv.reader(datafile)
 
     firstflag = True
@@ -22,7 +22,7 @@ with open('/home/angelo/Projects/demon/data/cleaned-signaling-data.csv','r') as 
             aperson.append({'time':timestr, 'coord':[float(line[4]), float(line[5])]})
     datafile.close()
 
-with   open('/home/angelo/Projects/demon/data/person-travel-data.json', 'w') as jsonfile:
+with   open('../../data/person-travel-data.json', 'w') as jsonfile:
     json.dump(jsondata, jsonfile)
     jsonfile.close()
 

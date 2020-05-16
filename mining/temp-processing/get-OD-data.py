@@ -25,7 +25,7 @@ with open('../../data/original-destination-data-v3.csv','r') as datafile:
             aperson.append({'starttime':stimestr, 'endtime':etimestr, 'coord':[float(line[3]), float(line[4])]})
     datafile.close()
 
-with   open('../../data/OD-json-data.json', 'w+') as jsonfile:
+with open('../../data/OD-json-data.json', 'w+') as jsonfile:
     json.dump(jsondata, jsonfile)
     jsonfile.close()
 

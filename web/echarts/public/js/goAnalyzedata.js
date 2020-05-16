@@ -73,17 +73,11 @@ for(var props in AnalyzeJson){
     analyzeLines.push(line);
     // userRouteData.push(data);
 }
-console.log(analyzeLines);
-colorList = ["#666666","#AAAAAA","#FFFFFF","#6F6F6F","#FFFAFA","#DCDCDC","#FFEFD5","#7B68EE","#0000FF"];
-var i = 0;
+//console.log(analyzeLines);
 for(var props in analyzeLines){
     analyzeLines[props].lineStyle = {
-        normal: {
-            color: echarts.color.modifyHSL(colorList[i], Math.round(0.5*props))
+        normal: {//#ffff00
+            color: echarts.color.modifyHSL("#5A94DF", Math.round(0.5*props))
         }
-    }
-    i++;
-    if(i >= colorList.length){
-        i -= colorList.length; 
     }
 }

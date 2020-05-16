@@ -421,9 +421,7 @@ var option = {
         data: lines,
         silent: true,
         lineStyle: {
-            // color: '#c23531',
-            // color: 'rgb(200, 35, 45)',
-            opacity: 0.2,
+            opacity: 1,
             width: 2
         },
         progressiveThreshold: 500,

@@ -17,7 +17,7 @@ option = {
         textStyle:{
             color: '#0099FF',
         },
-        data: ['步行', '地铁', '公交', '私家车', '自行车']
+        data: ['步行', '公共交通', '自驾', '自行车']
     },
     series: [
         {
@@ -26,11 +26,10 @@ option = {
             radius: '55%',
             center: ['50%', '60%'],
             data: [
-                {value: 335, name: '步行'},
-                {value: 310, name: '地铁'},
-                {value: 234, name: '公交'},
-                {value: 135, name: '私家车'},
-                {value: 1548, name: '自行车'}
+                {value: 131, name: '步行'},
+                {value: 39, name: '公共交通'},
+                {value: 10, name: '自驾'},
+                {value: 57, name: '自行车'}
             ],
             emphasis: {
                 itemStyle: {

@@ -423,7 +423,7 @@ var option = {
         lineStyle: {
             // color: '#c23531',
             // color: 'rgb(200, 35, 45)',
-            opacity: 0.5,
+            opacity: 0.2,
             width: 2
         },
         effect: {
